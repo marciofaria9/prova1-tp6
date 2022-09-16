@@ -6,4 +6,4 @@ app.use(express.json())
 app.use('/subjects', router)
 const port = 8087
 
-app.listen(port, () => console.log('Server up!'))
+app.listen(port, () => console.log(`Server up on port ${port}`))
